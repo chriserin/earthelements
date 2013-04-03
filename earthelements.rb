@@ -25,6 +25,18 @@ class Palette::ColorScheme
       combined.to_s
     end
   end
+
+  alias :old_header :header
+
+  def header
+    result = ""
+    result << old_header
+    result << <<-COLUMNS
+
+
+
+    COLUMNS
+  end
 end
 
 
@@ -46,6 +58,8 @@ vim_colors "earthelements" do
   link :vimFold, :FoldColumn, :to => :Folded
 
   LineNr "A52A2A"
+
+  #ColorColumn default_font_color, background_color
 
   Type       default_font_color
   Comment    "AAB1BC"
@@ -117,6 +131,7 @@ vim_colors "earthelements" do
   rubyInstanceVariable royal_blue + default_font_color + black
   rubyBlockParameterList "675735"
   rubyBlockParameter "675735"
+  rubyPredefinedVariable black, (royal_blue + default_font_color + black).lighten(0.4)
 
   #method declarations
   function_color = default_font_color.darken(0.8)

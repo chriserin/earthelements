@@ -5,6 +5,9 @@
 " Author: chriserin
 " Notes:  create different schemes for each context; make the context switches easier
 
+
+
+
 hi clear
 if version > 580
     if exists("syntax_on")
@@ -66,6 +69,7 @@ hi rubyInterpolation         guifg=#AA4434 ctermfg=131  gui=NONE cterm=NONE
 hi rubyInstanceVariable      guifg=#419CE1 ctermfg=74   gui=NONE cterm=NONE
 hi rubyBlockParameterList    guifg=#675735 ctermfg=240  gui=NONE cterm=NONE
 hi rubyBlockParameter        guifg=#675735 ctermfg=240  gui=NONE cterm=NONE
+hi rubyPredefinedVariable    guifg=#000000 ctermfg=16   guibg=#A7FFFF ctermbg=159  gui=NONE cterm=NONE
 hi rubyMethodDeclaration     guifg=#002900 ctermfg=16   gui=NONE cterm=NONE
 hi rubyDefine                guifg=#002900 ctermfg=16   guibg=#D9D9D9 ctermbg=253  gui=NONE cterm=NONE
 hi rubyFunction              guifg=#002900 ctermfg=16   guibg=#F2F2F2 ctermbg=255  gui=NONE cterm=NONE
