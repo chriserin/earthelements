@@ -8,4 +8,4 @@ ruby oriented vim colorscheme
 
 
 Screen Shot: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/screen_shot.png "Screen Shot")
+![alt text](https://raw.github.com/chriserin/earthelements/master/screen_shot.png "Screen Shot")
