@@ -59,6 +59,7 @@ hi diffRemoved               guifg=#DD0000 ctermfg=160  guibg=#FFFFFF ctermbg=23
 hi rubyAccess                guifg=#000000 ctermfg=16   guibg=#FFBB55 ctermbg=215  gui=NONE cterm=NONE
 hi rubyConditional           guifg=#FF0000 ctermfg=196  gui=NONE cterm=NONE
 hi rubyConstant              guifg=#004400 ctermfg=22   gui=BOLD cterm=BOLD
+hi coffeeObject              guifg=#004400 ctermfg=22   gui=BOLD cterm=BOLD
 hi rubySymbol                guifg=#FF4411 ctermfg=202  gui=NONE cterm=NONE
 hi rubyException             guifg=#FFFFFF ctermfg=231  guibg=#EE4444 ctermbg=203  gui=NONE cterm=NONE
 hi rubyMethodExceptional     guifg=#000000 ctermfg=16   guibg=#FF6666 ctermbg=203  gui=NONE cterm=NONE
@@ -67,11 +68,13 @@ hi rubyLocalVariableOrMethod guifg=#EEEEEE ctermfg=255  gui=NONE cterm=NONE
 hi rubyPseudoVariable        guifg=#DD2200 ctermfg=160  gui=BOLD cterm=BOLD
 hi rubyInterpolation         guifg=#AA4434 ctermfg=131  gui=NONE cterm=NONE
 hi rubyInstanceVariable      guifg=#419CE1 ctermfg=74   gui=NONE cterm=NONE
+hi coffeeSpecialIdent        guifg=#419CE1 ctermfg=74   gui=NONE cterm=NONE
 hi rubyBlockParameterList    guifg=#675735 ctermfg=240  gui=NONE cterm=NONE
 hi rubyBlockParameter        guifg=#675735 ctermfg=240  gui=NONE cterm=NONE
 hi rubyPredefinedVariable    guifg=#000000 ctermfg=16   guibg=#A7FFFF ctermbg=159  gui=NONE cterm=NONE
 hi rubyMethodDeclaration     guifg=#002900 ctermfg=16   gui=NONE cterm=NONE
 hi rubyDefine                guifg=#002900 ctermfg=16   guibg=#D9D9D9 ctermbg=253  gui=NONE cterm=NONE
+hi coffeeExtendedOp          guifg=#000000 ctermfg=16   gui=NONE cterm=NONE
 hi rubyFunction              guifg=#002900 ctermfg=16   guibg=#F2F2F2 ctermbg=255  gui=NONE cterm=NONE
 hi rubyClass                 guifg=#808000 ctermfg=100  gui=NONE cterm=NONE
 hi rubyModule                guifg=#A053F0 ctermfg=135  gui=NONE cterm=NONE
@@ -93,3 +96,4 @@ hi link rubyDefine          Function
 hi link rubyHeredocEnd      Comment
 hi link rubyModule          Type
 hi link rubyOperator        Normal
+hi link coffeeExtendedOp    Function

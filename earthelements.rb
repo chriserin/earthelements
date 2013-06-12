@@ -116,10 +116,13 @@ vim_colors "earthelements" do
   link :rubyModule, :to => :Type
   link :rubyOperator, :to => :Normal
 
+  link :coffeeExtendedOp, :to => :Function
+  
   rubyAccess "000000", "ffbb55"
   rubyConditional "FF0000"
 
   rubyConstant "004400", :gui => "bold"
+  coffeeObject "004400", :gui => "bold"
   rubySymbol "FF4411"
 
   rubyException               "ffffff", "ee4444"
@@ -129,6 +132,7 @@ vim_colors "earthelements" do
   rubyPseudoVariable "DD2200", :gui => "bold"
   rubyInterpolation default_font_color + string_color
   rubyInstanceVariable royal_blue + default_font_color + black
+  coffeeSpecialIdent royal_blue + default_font_color + black
   rubyBlockParameterList "675735"
   rubyBlockParameter "675735"
   rubyPredefinedVariable black, (royal_blue + default_font_color + black).lighten(0.4)
@@ -137,6 +141,7 @@ vim_colors "earthelements" do
   function_color = default_font_color.darken(0.8)
   rubyMethodDeclaration function_color
   rubyDefine function_color, (background_color.darken 0.85)
+  coffeeExtendedOp black
   rubyFunction function_color, background_color.darken(0.95)
   rubyClass olive
   rubyModule purple + default_font_color

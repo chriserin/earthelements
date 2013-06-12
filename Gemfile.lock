@@ -1,0 +1,19 @@
+GIT
+  remote: git://github.com/chriserin/colorist.git
+  revision: 3b37257bbca9a51940c84e40d196492c87c6473f
+  specs:
+    colorist (0.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    palette (0.0.8)
+      sass (= 3.1.1)
+    sass (3.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorist!
+  palette
